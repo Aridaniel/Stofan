@@ -1,0 +1,59 @@
+ul
+{
+    list-style-type: none;
+}
+
+
+body
+{
+
+}
+
+.Forsida 
+{
+
+}
+.logoleft
+{
+
+}
+
+
+
+.burgermenu
+{
+width: ;
+margin-top: ;
+}
+
+.hide-mobile
+{
+display: none;
+}
+
+.show-desktop hide-desktop
+{
+
+}
+
+
+.forsidamynd
+{
+    
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.verkefni
+{
+    font-family: 'Monda', sans-serif;
+    font-size: 36px;
+    font-style: bold;
+    text-align: center;
+
+}
+
