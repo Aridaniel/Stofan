@@ -3,9 +3,19 @@ ul li{
 }
 
 
-body {
+html {
+    font-size: 14px;
 
+}
 
+@media (min-width:768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+h1 {
+    font-size: 2.5rem;
 }
 
 .Forsida {
@@ -40,7 +50,7 @@ header {
 
 .verkefni {
     font-family: 'Monda', sans-serif;
-    font-size: 36px;
+    /* font-size: 36px; */
     font-style: bold;
     text-align: center;
 }
