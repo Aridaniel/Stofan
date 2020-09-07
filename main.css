@@ -1,59 +1,47 @@
-ul
-{
-    list-style-type: none;
+ul li{
+    list-style: none;
 }
 
 
-body
-{
+body {
+
 
 }
 
-.Forsida 
-{
-
-}
-.logoleft
-{
+.Forsida {
 
 }
 
-
-
-.burgermenu
-{
-width: ;
-margin-top: ;
-}
-
-.hide-mobile
-{
-display: none;
-}
-
-.show-desktop hide-desktop
-{
+.logoleft {
 
 }
 
+.burgermenu {
+    width: ;
+    margin-top: ;
+}
 
-.forsidamynd
-{
+.hide-mobile {
+    display: none;
+}
+
+.show-desktop , hide-desktop {
+
+}
+
+.forsidamynd {
     
 }
 
-header
-{
+header {
     display: flex;
     justify-content: space-between;
 }
 
-.verkefni
-{
+.verkefni {
     font-family: 'Monda', sans-serif;
     font-size: 36px;
     font-style: bold;
     text-align: center;
-
 }
 
