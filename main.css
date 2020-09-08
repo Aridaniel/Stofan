@@ -130,7 +130,7 @@ text-transform: uppercase;
 */
 .umstofan_header{
     font-family: 'Monda', sans-serif;
-    font-size: ;
+    font-size: 3pc;
     color: #4D4C4C;
     position: absolute;
     width: 234.49px;
@@ -180,6 +180,6 @@ font-family: 'Monda', sans-serif;
     margin-right: 0.5rem;
 }
 
-.footer-bar a < :last-child {
+.footer-bar a :last-child {
     margin-right: 0;
 }
