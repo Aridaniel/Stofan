@@ -3,39 +3,144 @@ ul li{
 }
 
 
-html {
-    font-size: 14px;
-
-}
+/*
 
 @media (min-width:768px) {
     html {
         font-size: 16px;
     }
 }
+*/
+
+/* font-family: Monda;
+font-style: normal;
+font-weight: bold;
+font-size: 12.3952px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;*/
+
+.ferli{
+    text-align: center;
+    font-family: 'Monda', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12.3952px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    
+}
+ .hugmynd{
+     margin: 5rem;
+ }
+ .framkvaema{
+     margin: 5rem;
+ }
+ .veruleiki{
+     margin: 5rem;
+ }
 
 h1 {
     font-size: 2.5rem;
 }
 
+/* width:50%; margin-left:25% !important; margin-right:25% !important;" */
+
+.logoleft{
+   margin: 0 0 10px 0;
+   padding: 0 0 0 ;
+    
+}
+
+.forsidamynd{
+    width: 100%;
+    height: auto;
+    margin: 0 10 2 2rem;
+    padding: 0 0 0 0;
+}
+
+.linur{
+    margin-top: 5rem;
+}
+
 .lina1{
-    width: auto;
-    height: 400px;
-    border-bottom: 4px solid #E5AE39;
+    margin-left:10% !important; 
+    margin-right:10% !important;   
+    width: 80;
+    height: 100px;
+    border-bottom: 8px solid #E5AE39;
 }
 
 .lina2{
-    width: max-content ;
-    height: 400px;
-    border-bottom: 4px solid #CB7A5C;
+    margin-left:25% !important; 
+    margin-right:25% !important;    
+    width: 50% ;
+    height: 100px;
+    align-content: center;
+    border-bottom: 7px solid #CB7A5C;
 }
 .lina3{
-    width: max-content ;
-    height: 400px;
-    border-bottom: 4px solid #51AC83;
+    margin-left:38% !important; 
+    margin-right:38% !important;   
+    width: 26% ;
+    height: 100px;
+    border-bottom: 7px solid #51AC83;
+    
 }
 
+.umokkur{
+    text-align: center;
+    margin-left:10% !important; 
+    margin-right:10% !important;  
+    margin-top: 15rem;
+    background-color: E5AE39;
+}
 
+/*
+position: absolute;
+width: 234.49px;
+height: 28.12px;
+left: 19.2px;
+top: 20.46px;
+
+font-family: Monda;
+font-style: normal;
+font-weight: bold;
+font-size: 17.1581px;
+line-height: 28px;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+/* Dökk grár */
+
+
+*/
+.umstofan_header{
+    font-family: 'Monda', sans-serif;
+    font-size: ;
+    color: #4D4C4C;
+    position: absolute;
+    width: 234.49px;
+    height: 28.12px;
+    left: 19.2px;
+    top: 20.46px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17.1581px;
+    line-height: 28px;
+    /*display: flex;
+    align-items: center;*/
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+}
 
 .hide-mobile {
     display: none;
@@ -48,9 +153,13 @@ header {
 }
 
 .verkefni {
-    font-family: 'Monda', sans-serif;
+font-family: 'Monda', sans-serif;
     /* font-size: 36px; */
     font-style: bold;
     text-align: center;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+}
