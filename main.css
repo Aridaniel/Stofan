@@ -1,6 +1,8 @@
 * {
     padding: 0;
     margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
 ul li{
@@ -166,5 +168,18 @@ font-family: 'Monda', sans-serif;
 
 .footer-bar {
     display: flex;
-    padding: 1rem 0;
+    padding: 1.5rem 2rem;
+}
+
+.footer-bar li:first-child {
+    margin-right: auto;
+}
+
+.footer-bar a {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.footer-bar a < :last-child {
+    margin-right: 0;
 }
