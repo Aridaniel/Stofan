@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stofan</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Monda&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
     
@@ -24,9 +24,10 @@
             <ul class="show-desktop hide-mobile" id="nav">
                  <li id="exit" class="exit-btn hide-desktop">  
                         <img src="myndir/x.svg" alt="exit menu">
-                 </li>              
+                 </li> 
+
+                <li> <a href="#">Um okkur</a></li>             
                 <li> <a href="#">Verkefni</a></li>
-                <li> <a href="#">Um okkur</a></li>
                 <li> <a href="#">Hafa Samband</a></li>
             </ul>
                              
@@ -43,7 +44,7 @@
 
     <section class="container white">
         <div class="ferli">
-
+            
             <div class="hugmynd">
                 <h2 >Segðu okkur frá<br> hugmyndinni þinni</h2>
                 <img src="myndir/icon_peran.svg" alt="icon_pera" class="icon_peran">
@@ -58,16 +59,16 @@
 
             <div class="veruleika">
                 <h2 class="texti_veruleika">Hugmynd verður<br> að veruleika</h2>
-                <img src="myndir/icon_check.png" alt="icon_veruleika" class="icon_check">
+                <img src="myndir/icon_check.svg" alt="icon_veruleika" class="icon_check">
 
             </div>
 
             <div class="linur">
-                    <div class="lina1"></div>
+                <div class="lina1"></div>
 
-                    <div class="lina2"></div>
+                <div class="lina2"></div>
 
-                    <div class="lina3"></div>
+                <div class="lina3"></div>
             </div>
         </div>
 
@@ -144,7 +145,7 @@
 
         <div class="contact-form">
 
-            <form id="contact-form" method="post" action="">
+            <form id="contact-form" method="GET" action="#">
                 <input name="nafn" type="text" class="form-control" placeholder="Nafn" required><br>
                 <input name="netfang" type="text" class="form-control" placeholder="Netfang" required><br>
                 <input name="simi" type="text" class="form-control" placeholder="Sími" required><br>
@@ -153,7 +154,7 @@
 
               
 
-                <input type="senda" class="form-control senda" value="Senda">
+                <input  onclick='alert("Formið sent")' type="submit" class="form-control senda" value="Senda">
             </form>  
 
         </div>
@@ -195,7 +196,9 @@
         </div>
     </footer>
 
-        
+<script src="test.js">
+    
+</script>        
 
     
     
