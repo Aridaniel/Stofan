@@ -2,7 +2,16 @@ ul li{
     list-style: none;
 }
 
+.hide-mobile {
+    display: none;
+}
 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.8rem;
+}
 /*
 
 @media (min-width:768px) {
@@ -11,6 +20,22 @@ ul li{
     }
 }
 */
+
+
+
+
+.burgermenu {
+    width: 25px;
+    margin: 1.5rem 0 0 0;
+    
+}
+
+.forsidamynd{
+    width: 100%;
+    height: auto;
+    margin:  0 0 ;
+    padding: 0 0 0 0;
+}
 
 /* font-family: Monda;
 font-style: normal;
@@ -33,71 +58,48 @@ text-transform: uppercase;*/
     letter-spacing: 0.04em;
     text-transform: uppercase;
     
-}
- .hugmynd{
-     margin: 5rem;
- }
- .framkvaema{
-     margin: 5rem;
- }
- .veruleiki{
-     margin: 5rem;
- }
-
-h1 {
-    font-size: 2.5rem;
-}
-
-/* width:50%; margin-left:25% !important; margin-right:25% !important;" */
-
-.logoleft{
-   margin: 0 0 10px 0;
-   padding: 0 0 0 ;
     
 }
 
-.forsidamynd{
-    width: 100%;
-    height: auto;
-    margin: 0 10 2 2rem;
-    padding: 0 0 0 0;
+.ferli div h2{
+    margin-top: 4rem;
+
+}
+.ferli div img {
+    margin: 1.5rem;
 }
 
-.linur{
-    margin-top: 5rem;
-}
+
+
+/* width:50%; margin-left:25% !important; margin-right:25% !important;" */
+
+
+
 
 .lina1{
-    margin-left:10% !important; 
-    margin-right:10% !important;   
-    width: 80;
-    height: 100px;
-    border-bottom: 8px solid #E5AE39;
+    margin-left:5% !important; 
+    margin-right:5% !important;   
+    width: 90;
+    height: 50px;
+    border-bottom: 4px solid #E5AE39;
 }
 
 .lina2{
     margin-left:25% !important; 
     margin-right:25% !important;    
     width: 50% ;
-    height: 100px;
-    align-content: center;
-    border-bottom: 7px solid #CB7A5C;
-}
-.lina3{
-    margin-left:38% !important; 
-    margin-right:38% !important;   
-    width: 26% ;
-    height: 100px;
-    border-bottom: 7px solid #51AC83;
+    height: 30px;
+    border-bottom: 4px solid #CB7A5C;
+    
     
 }
-
-.umokkur{
-    text-align: center;
-    margin-left:10% !important; 
-    margin-right:10% !important;  
-    margin-top: 15rem;
-    background-color: E5AE39;
+.lina3{
+    margin-left:40% !important; 
+    margin-right:40% !important;   
+    width: 20% ;
+    height: 30px;
+    border-bottom: 4px solid #51AC83;
+    
 }
 
 /*
@@ -120,46 +122,264 @@ text-transform: uppercase;
 /* Dökk grár */
 
 
-*/
+
 .umstofan_header{
     font-family: 'Monda', sans-serif;
-    font-size: ;
+    text-align: center;
     color: #4D4C4C;
-    position: absolute;
+    
     width: 234.49px;
     height: 28.12px;
-    left: 19.2px;
-    top: 20.46px;
 
     font-style: normal;
     font-weight: bold;
     font-size: 17.1581px;
     line-height: 28px;
-    /*display: flex;
-    align-items: center;*/
+
     letter-spacing: 0.04em;
     text-transform: uppercase;
 
 }
 
-.hide-mobile {
-    display: none;
+.umokkur{
+    text-align: center;
+    margin-left:10% !important; 
+    margin-right:10% !important;  
+    margin-top: 5rem;
+    background-color: E5AE39;
 }
 
 
-header {
-    display: flex;
-    justify-content: space-between;
-}
 
 .verkefni {
-font-family: 'Monda', sans-serif;
-    /* font-size: 36px; */
-    font-style: bold;
+    
+    object-position: center;
+
+}
+
+.verkefni ul li h4{
+    font-family: Monda;
+    font-style: normal;
+    font-weight: bold;
+    font-size:18px;
+    line-height: 18px;
+    color: #4D4C4C;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.verkefni ul li p{
+    color: #000000;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    height: 54px;
+    margin-bottom: 3rem;
+
+}
+
+
+ 
+
+.verkefni_header{
+    text-align: center;
+    color: #4D4C4C;
+    font-family: 'Monda', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin: 4rem 0 2rem ;
+    
+
+}
+
+
+
+.arcticpic {
+   width: 100%;
+   height: auto;
+  
+}
+
+
+.arctic_header {
+    text-align: right;
+    
+}
+
+
+
+.arctic_text {
+
+    text-align: right;
+}
+
+
+
+.glopic{
+    width: 100%;
+    height: auto;
+    
+}
+
+.glo_header{
+    text-align: left;
+
+}
+
+.glo_text{
+    text-align:left;
+    
+}
+
+.arionpic{
+    width: 100%;
+    height: auto;
+}
+
+.arion_header{
+    text-align: right;
+
+}
+
+.arion_text{
+    text-align:right;
+    
+}
+
+.orange_container{
+    background-color:#CB7A5C; 
+    padding: 2rem 0 10rem 0;
+    margin: 4rem 0 2rem 0;
+}
+
+.orange_container h3
+{
+
+    font-family: 'Monda', sans-serif;
+    font-style: normal;
+    color: #FAFCFE;
+    line-height: 23px;
+    text-transform: uppercase; 
+    font-size: 18px;
+    font-style:bold ;
+
     text-align: center;
 }
 
-footer {
+
+
+.orange_container h4
+{
+
+    text-align: center;
+    font-family: 'Monda', sans-serif;
+    font-style: normal;
+    color: #FAFCFE;
+    line-height: 23px;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: -1rem 0 4rem;
+}
+
+form
+{
+    transition: all 4s ease-in-out;
+}
+
+.form-control
+{
+    font-size: 1rem;
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    background:transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #FAFCFE;
+    color:white;
+    margin: 1rem;
+    
+}
+
+
+.senda
+{
+    font-size: 1rem;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    height: 2rem;
+    width: 8rem;
+    font-family: Poppins;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: #E5AE39;
+    margin:2rem 0 0 1rem;
+    border: 0px;
+    border-radius: 6px;
+    
+    
+}
+
+form.senda :hover
+{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+
+footer 
+{
     display: flex;
     justify-content: space-between;
 }
+
+header nav ul{
+    position: fixed;
+    width: 100%;
+    top:0;
+    right:0;
+    text-align: center;
+    background:white;
+    height:50%;
+   
+}
+
+header nav ul li a
+{
+    color:#4D4C4C;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 2rem ;
+    background-color:white;
+}
+
+header ul li a:hover
+{
+    color:#E5AE39 ;
+}
+
+.exit-btn
+{
+    margin :1rem 1rem;
+    text-align: right;
+    padding: 1rem 1rem;
+}
+.exit-btn img
+{
+    width: 140;
+    cursor: pointer;
+
+}
+
