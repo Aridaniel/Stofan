@@ -32,7 +32,7 @@ header {
 
 
 .burgermenu {
-    width: 25px;
+    width: 1.6rem;
     margin: 1.5rem 0 0 0;
     
 }
@@ -44,24 +44,15 @@ header {
     padding: 0 0 0 0;
 }
 
-/* font-family: Monda;
-font-style: normal;
-font-weight: bold;
-font-size: 12.3952px;
-line-height: 20px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
-text-transform: uppercase;*/
+
 
 .ferli{
     text-align: center;
     font-family: 'Monda', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 12.3952px;
-    line-height: 20px;
+    font-size: 0.8;
+    line-height: 1.5rem;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     
@@ -408,18 +399,29 @@ header ul li a:active
 
 @media only screen and (min-width: 800px)
 {
-    .container.white
-    {
-        margin: 0;
-    }
+    
 
-    .ferli div img
+    .ferli 
     {
 
         display: flex;
-        align-items: center;
+        text-align: center;
+       
     } 
+    .ferli div
+    {
+        width: 150%;
+        border:1px solid tomato;
+        padding: 1rem ;
+        margin: 0 2rem;
+        
 
+    }
+
+    .ferli img
+    {
+        object-position: center;
+    }
 
 }
 
