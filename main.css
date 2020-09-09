@@ -1,3 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
 ul li{
     list-style: none;
 }
@@ -126,6 +133,7 @@ text-transform: uppercase;
 .umstofan_header{
     font-family: 'Monda', sans-serif;
     text-align: center;
+    font-size: 3pc;
     color: #4D4C4C;
     
     width: 234.49px;
@@ -383,3 +391,55 @@ header ul li a:hover
 
 }
 
+.container {
+    text-align: center;
+    padding: 2rem auto;
+    width: 100%;
+    height: auto;
+}
+
+.golden {
+    width: 100%;
+}
+
+.grid {
+    margin: 20rem auto;
+    background-color:#fff;
+    display:grid;
+    grid-template-columns: 300px 300px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.box {
+    background-color:#333;
+    padding:20px;
+    color:#fff;
+    display: inline;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+}
+
+.box img {
+    padding: 1rem;
+}
+
+.footer-bar {
+    display: flex;
+    padding: 1.5rem 2rem;
+}
+
+.footer-bar li:first-child {
+    margin-right: auto;
+}
+
+.footer-bar a {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.footer-bar a :last-child {
+    margin-right: 0;
+}
