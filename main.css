@@ -166,6 +166,41 @@ font-family: 'Monda', sans-serif;
     text-align: center;
 }
 
+.container {
+    text-align: center;
+    padding: 2rem auto;
+    width: 100%;
+    height: auto;
+}
+
+.golden {
+    width: 100%;
+}
+
+.grid {
+    margin: 20rem auto;
+    background-color:#fff;
+    display:grid;
+    grid-template-columns: 300px 300px;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.box {
+    background-color:#333;
+    padding:20px;
+    color:#fff;
+    display: inline;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+}
+
+.box img {
+    padding: 1rem;
+}
+
 .footer-bar {
     display: flex;
     padding: 1.5rem 2rem;
