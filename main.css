@@ -152,10 +152,12 @@ text-transform: uppercase;
 .umokkur{
     text-align: center;  
     margin-top: 5rem;
-    background-color: #E5AE39;
 }
 
-
+.golden
+{
+    background-color: #E5AE39;
+}
 
 .verkefni {
     
@@ -397,7 +399,6 @@ header ul li a:hover
 
 .grid {
     margin: auto;
-    background-color:#fff;
     display:grid;
     grid-template-columns: 300px 300px;
     grid-row: auto auto;
@@ -409,9 +410,8 @@ header ul li a:hover
 }
 
 .box {
-    background-color:#333;
     padding:20px;
-    color:#fff;
+    color:black;
     display: inline;
     align-items: center;
     justify-content:center;
