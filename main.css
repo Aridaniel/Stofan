@@ -174,6 +174,7 @@ text-transform: uppercase;
     color: #4D4C4C;
     letter-spacing: 0.04em;
     text-transform: uppercase;
+    margin: 2rem 2rem ;
 }
 
 .verkefni ul li p{
@@ -186,7 +187,7 @@ text-transform: uppercase;
     letter-spacing: 0.02em;
 
     height: 54px;
-    margin-bottom: 3rem;
+    margin: 2rem 2rem;
 
 }
 
@@ -294,7 +295,7 @@ text-transform: uppercase;
     line-height: 23px;
     font-size: 14px;
     text-transform: uppercase;
-    margin: -1rem 0 4rem;
+    margin: -0.5rem 0 4rem;
 }
 
 form
@@ -346,11 +347,7 @@ form.senda :hover
 }
 
 
-footer 
-{
-    display: flex;
-    justify-content: space-between;
-}
+
 
 header nav ul{
     position: fixed;
@@ -442,4 +439,5 @@ header ul li a:hover
 
 .footer-bar a :last-child {
     margin-right: 0;
+
 }
