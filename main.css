@@ -150,7 +150,7 @@ text-transform: uppercase;
 }
 
 .umokkur{
-    text-align: center;  
+    text-align: justify;
     margin-top: 5rem;
 }
 
@@ -400,17 +400,17 @@ header ul li a:hover
 .grid {
     margin: auto;
     display:grid;
-    grid-template-columns: 300px 300px;
+    grid-template-columns: 250px 250px;
     grid-row: auto auto;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     width: 100%;
     align-items: center;
     justify-content: center;
 }
 
 .box {
-    padding:20px;
+    padding:15px;
     color:black;
     display: inline;
     align-items: center;
