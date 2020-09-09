@@ -150,13 +150,26 @@ text-transform: uppercase;
 }
 
 .umokkur{
-    text-align: justify;
-    margin-top: 5rem;
+             
 }
 
 .golden
 {
     background-color: #E5AE39;
+    width: 100%;
+}
+
+.umstofan_texti {
+    text-align: justify;
+    margin-top: 5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    width: 100%; 
+    max-width: 500px;             
+    padding: 1rem auto;
+    margin: 0;              
 }
 
 .verkefni {
@@ -400,7 +413,7 @@ header ul li a:hover
 .grid {
     margin: auto;
     display:grid;
-    grid-template-columns: 250px 250px;
+    grid-template-columns: 200px 200px;
     grid-row: auto auto;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
@@ -417,6 +430,7 @@ header ul li a:hover
     justify-content:center;
     text-align: center;
     margin: auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .box img {
