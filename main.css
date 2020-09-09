@@ -150,11 +150,9 @@ text-transform: uppercase;
 }
 
 .umokkur{
-    text-align: center;
-    margin-left:10% !important; 
-    margin-right:10% !important;  
+    text-align: center;  
     margin-top: 5rem;
-    background-color: E5AE39;
+    background-color: #E5AE39;
 }
 
 
@@ -347,8 +345,6 @@ form.senda :hover
 }
 
 
-
-
 header nav ul{
     position: fixed;
     width: 100%;
@@ -390,7 +386,7 @@ header ul li a:hover
 
 .container {
     text-align: center;
-    padding: 2rem auto;
+    padding: 2rem;
     width: 100%;
     height: auto;
 }
@@ -400,13 +396,16 @@ header ul li a:hover
 }
 
 .grid {
-    margin: 20rem auto;
+    margin: auto;
     background-color:#fff;
     display:grid;
     grid-template-columns: 300px 300px;
     grid-row: auto auto;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .box {
@@ -417,6 +416,7 @@ header ul li a:hover
     align-items: center;
     justify-content:center;
     text-align: center;
+    margin: auto;
 }
 
 .box img {
