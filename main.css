@@ -1,5 +1,85 @@
+/* Letur styles*/
+h2
+{
+    font-size: 	2.25rem;
+    font-family: 'monda', sans-serif;
+    font-weight: bold;
+    color: #4D4C4C;
+    letter-spacing: 4%;
+    line-height:	3.6875rem ;
+    text-transform: uppercase;
+}
 
-/* æfa merga*/
+h3
+{
+    font-size: 1.5rem;
+    font-family: 'monda', sans-serif;
+    font-weight: bold;
+    color:#FAFCFE;
+    letter-spacing: 4%;
+    line-height:2.4375rem ;
+    text-transform: uppercase;
+
+
+}
+
+h4
+{
+    font-size: 1.25rem;
+    font-family: 'monda', sans-serif;
+    font-weight: bold;
+    color: #4D4C4C;
+    letter-spacing: 2px;
+    line-height:	2.0625rem ;
+    text-transform: uppercase;
+
+    
+
+}
+
+h5
+{
+    font-size: 1.5rem;
+    font-family: 'monda', sans-serif; 
+    font-weight: normal;
+    color:#FAFCFE;
+    letter-spacing: 2%;
+    line-height:2.4375rem ;
+    text-transform: uppercase;
+
+    
+
+}
+
+p
+{
+  
+    font-size: 1.125rem;
+    font-family: 'Open Sans', sans-serif;; 
+    font-weight: normal;
+    columns: #000000;;
+    letter-spacing: 2%;  
+    line-height:1.5625rem ;
+}
+
+small
+{
+    font-size: 0.75rem;
+    font-family: 'Open Sans', sans-serif;; 
+    font-weight: normal;
+    columns: #000000;;
+    letter-spacing: 2%;  
+    line-height:1rem ;
+}
+
+/* Over all*/
+
+.container {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    height: auto;
+}
 
 ul li{
     list-style: none;
@@ -13,6 +93,8 @@ header {
     justify-content: space-between;
     margin: 0.8rem;
 }
+
+
 
 
 /* Iphone menu*/
@@ -93,20 +175,16 @@ header ul li a:active
 
 /* Hugmynd að veruleika myndir með textum */
 
-.ferli{
+.ferli
+{
     text-align: center;
-    font-family: 'Monda', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
+    
 }
 
-.ferli div h2{
+.ferli div h4
+{
     margin-top: 4rem;
-    color: #4D4C4C;
+  
 }
 
 .ferli div img {
@@ -149,15 +227,8 @@ header ul li a:active
 /* Um stofuna lýsing á fyrirtæki*/
 
 .umstofan_header{
-    font-family: 'Monda', sans-serif;
-    color: #4D4C4C;
+    
     padding: 0;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.3rem;
-    line-height: 3rem;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
     text-align: left;
 }
 
@@ -166,15 +237,12 @@ header ul li a:active
 {
     background-color: #E5AE39;
     width: 100%;
+    margin-top: 2rem;
 }
 
 .umstofan_texti {
     text-align: justify;
-    margin-top: 0.8rem;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.8rem;
-    line-height: 1.5;
-    letter-spacing: 0.02em;            
+    margin-top: 0.8rem;         
     padding: 1rem auto;
     margin-left: auto; 
     margin-right: auto;           
@@ -184,7 +252,29 @@ header ul li a:active
     max-width: 500px;
     margin: 0 auto;
 }
+.golden {
+    width: 100%;
+}
 
+.grid {
+    margin: auto;
+    display:grid;
+    grid-template-columns: minmax(150px,200px) minmax(150px,200px);
+    grid-column-gap: 10px;
+    grid-row-gap: 2rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.box {
+    
+    margin: 0 auto;
+    
+}
+
+.box img {
+    margin-bottom: 1rem;
+}
 
 /* Verkefni sem stofan hefur unnið,  þarf að laga fyrir @media*/*/ 
 
@@ -195,26 +285,13 @@ header ul li a:active
 }
 
 .verkefni ul li h4{
-    font-family: 'Monda', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size:1.125rem;
-    line-height: 1.12;
-    color: #4D4C4C;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
+   
     margin: 2rem 2rem ;
 }
 
-.verkefni ul li p{
-    color: #000000;
-    font-family: 'Open Sans', sans-serif;    
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1rem; ;
-    line-height: 1rem;
-    letter-spacing: 0.02em;
-
+.verkefni ul li p
+{
+    
     height: 3.375rem;
     margin: 2rem 2rem;
 
@@ -225,14 +302,6 @@ header ul li a:active
 
 .verkefni_header{
     text-align: center;
-    color: #4D4C4C;
-    font-family: 'Monda', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.125rem;
-    line-height: 1.1875;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
     margin: 4rem 0 2rem ;
     
 
@@ -303,13 +372,6 @@ header ul li a:active
 .orange_container h3
 {
 
-    font-family: 'Monda', sans-serif;
-    font-style: normal;
-    color: #FAFCFE;
-    line-height: 23px;
-    text-transform: uppercase; 
-    font-size: 18px;
-    font-style:bold ;
     margin-left:1.2rem;
     
 }
@@ -320,13 +382,7 @@ header ul li a:active
 {
 
     text-align: left;
-    font-family: 'Monda', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    color: #FAFCFE;
-    line-height: 23px;
-    font-size: 14px;
-    text-transform: uppercase;
+    
     margin: -0.2rem 1.2rem 4rem;
    
 }
@@ -337,20 +393,17 @@ form
 }
 
 ::placeholder{
-    color:white;
+    color:#FAFCFE;
 }
 
 .form-control
 {
-    font-size: 1rem;
     width: 80%;
-    font-family: 'Open-sans', sans-serif;
-    text-transform: uppercase;
     background:transparent;
     border: none;
     outline: none;
     border-bottom: 1px solid #FAFCFE;
-    color:white;
+    color:#FAFCFE;
     margin: 1rem;
     
     
@@ -396,9 +449,7 @@ form.senda :hover
     .ferli
     {
         margin:0;
-        font-size: 0.7rem;
-        line-height: 1.5rem;
-        letter-spacing: 0.04em;
+        
     }
 
     .ferli 
@@ -412,7 +463,7 @@ form.senda :hover
         width: 100%;
     }
 
-
+    
 
 
     .show-desktop
@@ -458,35 +509,20 @@ form.senda :hover
 
 
 
-@media only screen and (min-width: 1200px)
+@media only screen and (min-width: 1050px)
 {
     
+.umokkur
+{
+    display: flex;
 
-    .ferli div
-    {
-        
-       
-
-
-    }
-
-
-
-   
-    .ferli div h2
-    {
-        padding: 0 5rem;
-        
-    }
+} 
 
 }
 
 @media only screen and (min-width: 1362px)
 {
-    .nav ul li 
-    {
-        
-    }
+    
 
     .ferli div h2
     {
@@ -501,36 +537,11 @@ form.senda :hover
 /* ????? veit ekki  */
 
 
-.container {
-    text-align: center;
-    padding: 2rem;
-    width: 100%;
-    height: auto;
-}
 
-.golden {
-    width: 100%;
-}
 
-.grid {
-    margin: auto;
-    display:grid;
-    grid-template-columns: minmax(150px,200px) minmax(150px,200px);
-    grid-column-gap: 10px;
-    grid-row-gap: 2rem;
-    width: 100%;
-    justify-content: center;
-}
 
-.box {
-    color:black;
-    margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
-}
 
-.box img {
-    margin-bottom: 1rem;
-}
+/*Footer*/
 
 .footer-bar {
     display: flex;
