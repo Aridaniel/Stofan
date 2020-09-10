@@ -82,8 +82,8 @@ header ul li a:active
 .forsidamynd{
     width: 100%;
     height: auto;
-    margin:  0 0 ;
-    padding: 0 0 0 0;
+    margin:  0;
+    padding: 0;
 }
 
 
@@ -99,14 +99,12 @@ header ul li a:active
     line-height: 1.5rem;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    
-    
 }
 
 .ferli div h2{
     margin-top: 4rem;
-
 }
+
 .ferli div img {
     margin: 1.5rem;
 }
@@ -151,18 +149,12 @@ header ul li a:active
 
 .umstofan_header{
     font-family: 'Monda', sans-serif;
-    text-align: center;
-    font-size: 3pc;
     color: #4D4C4C;
-    
-    width: 234.49px;
-    height: 28.12px;
-
+    padding: 0;
     font-style: normal;
     font-weight: bold;
-    font-size: 17.1581px;
-    line-height: 28px;
-
+    font-size: 1.3rem;
+    line-height: 3rem;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     margin-top: 2rem;
@@ -182,7 +174,7 @@ header ul li a:active
     text-align: justify;
     margin-top: 5rem;
     font-family: 'Open Sans', sans-serif;
-    font-size: 11px;
+    font-size: 0.8rem;
     line-height: 14px;
     letter-spacing: 0.02em;
     width: 100%; 
