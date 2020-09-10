@@ -1,17 +1,10 @@
-* {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
-}
+
 
 ul li{
     list-style: none;
 }
 
-.hide-mobile {
-    display: none;
-}
+
 
 
 header {
@@ -19,14 +12,41 @@ header {
     justify-content: space-between;
     margin: 0.8rem;
 }
-/*
 
-@media (min-width:768px) {
-    html {
-        font-size: 16px;
-    }
+/* Iphone menu*/
+
+
+header nav ul{
+    position: fixed;
+    width: 100%;
+    top:0;
+    right:0;
+    text-align: center;
+    background: #E5AE39;
+    height:60%;
+    
+    
+   
 }
-*/
+
+header nav ul li a
+{
+    font-family: 'Monda', sans-serif;
+    color:#4D4C4C;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 2rem ;
+    
+}
+
+header ul li a:active
+{
+    color: #FAFCFE ;
+}
+
 
 
 
@@ -37,6 +57,28 @@ header {
     
 }
 
+.exit-btn
+{
+    margin :1rem 1rem;
+    text-align: right;
+    padding: 1rem 1rem;
+  
+}
+.exit-btn img
+{
+    width: .7rem;
+    cursor: pointer;
+
+}
+
+.hide-mobile {
+    display: none;
+}
+
+
+
+/*FORSÍÐUMYND*/
+
 .forsidamynd{
     width: 100%;
     height: auto;
@@ -46,12 +88,14 @@ header {
 
 
 
+/* Hugmynd að veruleika myndir með textum */
+
 .ferli{
     text-align: center;
     font-family: 'Monda', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 0.8;
+    font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.04em;
     text-transform: uppercase;
@@ -66,18 +110,19 @@ header {
 .ferli div img {
     margin: 1.5rem;
 }
+ 
 
 
 
-/* width:50%; margin-left:25% !important; margin-right:25% !important;" */
 
 
 
+/* Línur sem decoration*/
 
 .lina1{
     margin-left:5% !important; 
     margin-right:5% !important;   
-    width: 90;
+    width: 90%;
     height: 50px;
     border-bottom: 4px solid #E5AE39;
 }
@@ -100,26 +145,9 @@ header {
     
 }
 
-/*
-position: absolute;
-width: 234.49px;
-height: 28.12px;
-left: 19.2px;
-top: 20.46px;
-
-font-family: Monda;
-font-style: normal;
-font-weight: bold;
-font-size: 17.1581px;
-line-height: 28px;
-display: flex;
-align-items: center;
-letter-spacing: 0.04em;
-text-transform: uppercase;
-
-/* Dökk grár */
 
 
+/* Um stofuna lýsing á fyrirtæki*/
 
 .umstofan_header{
     font-family: 'Monda', sans-serif;
@@ -137,17 +165,17 @@ text-transform: uppercase;
 
     letter-spacing: 0.04em;
     text-transform: uppercase;
+    margin-top: 2rem;
 
 }
 
-.umokkur{
-             
-}
+
 
 .golden
 {
     background-color: #E5AE39;
     width: 100%;
+    margin-top: 2rem;
 }
 
 .umstofan_texti {
@@ -163,6 +191,9 @@ text-transform: uppercase;
     margin: 0;              
 }
 
+
+/* Verkefni sem stofan hefur unnið,  þarf að laga fyrir @media*/*/ 
+
 .verkefni {
     
     object-position: center;
@@ -173,8 +204,8 @@ text-transform: uppercase;
     font-family: 'Monda', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size:18px;
-    line-height: 18px;
+    font-size:1.125rem;
+    line-height: 1.12;
     color: #4D4C4C;
     letter-spacing: 0.04em;
     text-transform: uppercase;
@@ -186,11 +217,11 @@ text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;    
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 1rem; ;
+    line-height: 1rem;
     letter-spacing: 0.02em;
 
-    height: 54px;
+    height: 3.375rem;
     margin: 2rem 2rem;
 
 }
@@ -204,8 +235,8 @@ text-transform: uppercase;
     font-family: 'Monda', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
-    line-height: 19px;
+    font-size: 1.125rem;
+    line-height: 1.1875;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     margin: 4rem 0 2rem ;
@@ -267,6 +298,8 @@ text-transform: uppercase;
     
 }
 
+/* Contact Form*/
+
 .orange_container{
     background-color:#CB7A5C; 
     padding: 2rem 0 10rem 0;
@@ -283,8 +316,8 @@ text-transform: uppercase;
     text-transform: uppercase; 
     font-size: 18px;
     font-style:bold ;
-
-    text-align: left;
+    margin-left:1.2rem;
+    
 }
 
 
@@ -299,7 +332,8 @@ text-transform: uppercase;
     line-height: 23px;
     font-size: 14px;
     text-transform: uppercase;
-    margin: -0.2rem 0 4rem;
+    margin: -0.2rem 1.2rem 4rem;
+   
 }
 
 form
@@ -308,7 +342,7 @@ form
 }
 
 ::placeholder{
-    color: violet;
+    color:white;
 }
 
 .form-control
@@ -357,79 +391,119 @@ form.senda :hover
 }
 
 
-header nav ul{
-    position: fixed;
-    width: 100%;
-    top:0;
-    right:0;
-    text-align: center;
-    background: #E5AE39;
-    height:60%;
-   
-}
 
-header nav ul li a
-{
-    color:#4D4C4C;
-    text-decoration: none;
-    display: block;
-    width: 100%;
-    padding: 2rem ;
-    
-}
 
-header ul li a:active
-{
-    color: #FAFCFE ;
-}
-
-.exit-btn
-{
-    margin :1rem 1rem;
-    text-align: right;
-    padding: 1rem 1rem;
-}
-.exit-btn img
-{
-    width: 140;
-    cursor: pointer;
-
-}
+/* Breytingar á browser með @media tag*/
 
 
 @media only screen and (min-width: 800px)
 {
-    
+    .ferli
+    {
+        margin:0;
+        font-size: 0.7rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.04em;
+    }
 
     .ferli 
     {
-
+        align-items: center;
         display: flex;
-        text-align: center;
-       
+            
     } 
-    .ferli div
+    .ferli div 
     {
-        width: 150%;
-        border:1px solid tomato;
-        padding: 1rem ;
-        margin: 0 2rem;
+        width: 100%;
+    }
+
+
+
+
+    .show-desktop
+    {
+        display: block;
+        margin: 0 auto 13% auto
+    }
+
+    .hide-desktop
+    {
+        display: none;
+    }
+
+    header nav ul 
+    {
+        position: inherit;
+        width: auto;
+        background: none;
+        height: auto;
+        display: flex;
+        padding-top: 0;
+    }
+
+    header nav ul li 
+    {
+        float: left;
+    }
+
+    header nav ul li a 
+    {
+        color:#4D4C4C;
+        background-color: inherit;
         
-
     }
 
-    .ferli img
+    header ul li a:hover
     {
-        object-position: center;
+        color: #E5AE39;
     }
-
+      
 }
 
 
 
 
+@media only screen and (min-width: 1200px)
+{
+    
+
+    .ferli div
+    {
+        
+       
 
 
+    }
+
+
+
+   
+    .ferli div h2
+    {
+        padding: 0 5rem;
+        
+    }
+
+}
+
+@media only screen and (min-width: 1362px)
+{
+    .nav ul li 
+    {
+        
+    }
+
+    .ferli div h2
+    {
+
+        padding: 0 auto;
+        
+    }
+
+}
+
+
+/* ????? veit ekki  */
 
 
 .container {
