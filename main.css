@@ -106,6 +106,7 @@ header ul li a:active
 
 .ferli div h2{
     margin-top: 4rem;
+    color: #4D4C4C;
 }
 
 .ferli div img {
@@ -315,12 +316,13 @@ header ul li a:active
 
 
 
-.orange_container h4
+.orange_container h5
 {
 
     text-align: left;
     font-family: 'Monda', sans-serif;
     font-style: normal;
+    font-weight: normal;
     color: #FAFCFE;
     line-height: 23px;
     font-size: 14px;
