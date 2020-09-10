@@ -1,4 +1,5 @@
 /* Letur styles*/
+
 html{
     font-size: 12px;
     
@@ -77,6 +78,10 @@ small
     line-height:1rem ;
 }
 
+
+
+
+
 /* Over all*/
 
 .container {
@@ -86,6 +91,11 @@ small
   height: auto;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 ul li {
@@ -97,6 +107,12 @@ header {
   justify-content: space-between;
   margin: 0.8rem;
 }
+
+
+
+
+
+
 
 /* Iphone menu*/
 
@@ -144,6 +160,10 @@ header ul li a:active {
   display: none;
 }
 
+
+
+
+
 /*FORSÍÐUMYND*/
 
 .forsidamynd {
@@ -152,6 +172,11 @@ header ul li a:active {
   margin: 0;
   padding: 0;
 }
+
+
+
+
+
 
 /* Hugmynd að veruleika myndir með textum */
 
@@ -166,6 +191,13 @@ header ul li a:active {
 .ferli div img {
   margin: 1.5rem;
 }
+
+
+
+
+
+
+
 
 /* Línur sem decoration*/
 
@@ -237,24 +269,35 @@ header ul li a:active {
   display: block;
 }
 
-/* Verkefni sem stofan hefur unnið,  þarf að laga fyrir @media*/
-*/ .verkefni {
+
+
+
+
+
+
+
+/* Verkefni sem stofan hefur unnið*/
+
+ .verkefni {
   object-position: center;
 }
 
-.verkefni ul li h4 {
-  margin: 2rem 2rem;
+.verkefni ul li div h4 {
+  margin: 1rem 1.5rem;
+
 }
 
-.verkefni ul li p {
-  height: 3.375rem;
-  margin: 2rem 2rem;
+.verkefni ul li div p {
+  
+  margin: 1rem 1.5rem 3rem 1.5rem;
 }
 
 .verkefni_header {
   text-align: center;
   margin: 4rem 0 2rem;
 }
+
+
 
 .arcticpic {
   width: 100%;
@@ -263,37 +306,81 @@ header ul li a:active {
 
 .arctic_header {
   text-align: right;
+  
 }
 
-.arctic_text {
+.linaarctic 
+{
+    
+    width: 25%;
+    height: 51x;
+      /* ÞARF AÐ TJEKKA A*/
+    border-bottom: 3px solid #51ac83;
+}
+
+.arctic_text 
+{
   text-align: right;
 }
 
-.glopic {
+.glopic 
+{
   width: 100%;
   height: auto;
 }
 
 .glo_header {
   text-align: left;
+  
 }
 
-.glo_text {
+
+.linaglo 
+{
+    
+    width: 25%;
+    height: 1px;
+    margin-left: 2rem;;   /* ÞARF AÐ TJEKKA A*/
+    border-bottom: 3px solid #51ac83;
+}
+
+.glo_text 
+{
   text-align: left;
 }
 
-.arionpic {
+.arionpic 
+{
   width: 100%;
   height: auto;
 }
 
-.arion_header {
+.arion_header 
+{
   text-align: right;
 }
 
-.arion_text {
+
+.linaarion {
+    
+    width: 25%;
+    height: 51x;
+   
+    border-bottom: 3px solid #51ac83;
+  }
+
+.arion_text 
+{
   text-align: right;
 }
+
+
+
+
+
+
+
+
 
 /* Contact Form*/
 
@@ -429,7 +516,16 @@ form.senda :hover {
 
 
 
-@media only screen and (min-width: 1050px) {
+@media only screen and (min-width: 1050px)
+{
+    .verkefni
+    {
+        display: flex;
+    }
+
+
+
+
   .umokkur {
     display: flex;
     max-width: 950px;
@@ -441,9 +537,16 @@ form.senda :hover {
   .grid {
     width: auto;
   }
+
+
 }
 
+
+
+
+
 @media only screen and (min-width: 1362px) {
+
   .ferli div h2 {
     padding: 0 auto;
   }
