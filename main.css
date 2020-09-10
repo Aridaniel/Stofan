@@ -1,11 +1,15 @@
 
 /* æfa merga*/
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 ul li{
     list-style: none;
 }
-
-
 
 
 header {
@@ -168,7 +172,7 @@ header ul li a:active
 }
 
 .umstofan_texti {
-    text-align: justify;
+    text-align: left;
     margin-top: 0.8rem;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.8rem;
@@ -296,7 +300,7 @@ header ul li a:active
 .orange_container{
     background-color:#CB7A5C; 
     padding: 2rem 0 10rem 0;
-    margin: 4rem 0 2rem 0;
+    margin: 4rem 0 0 0;
 }
 
 .orange_container h3
@@ -451,32 +455,25 @@ form.senda :hover
         color: #E5AE39;
     }
       
-}
+}  
 
 
 
 
-@media only screen and (min-width: 1200px)
+@media only screen and (min-width: 1050px)
 {
+    .umokkur {
+          display: flex;
+          max-width: 950px;
+            }
     
-
-    .ferli div
-    {
+    .umstofan_texti {
+        max-width: 775px;
+    }     
+    .grid {
         
-       
-
-
+        margin: 1rem auto 1rem 1rem;
     }
-
-
-
-   
-    .ferli div h2
-    {
-        padding: 0 5rem;
-        
-    }
-
 }
 
 @media only screen and (min-width: 1362px)
@@ -511,11 +508,11 @@ form.senda :hover
 }
 
 .grid {
-    margin: auto;
+    margin: 2rem auto;
     display:grid;
-    grid-template-columns: minmax(150px,200px) minmax(150px,200px);
-    grid-column-gap: 10px;
-    grid-row-gap: 2rem;
+    grid-template-columns: minmax(130px,130px) minmax(130px,130px);
+    grid-column-gap: 3rem;
+    grid-row-gap: 1.5rem;
     width: 100%;
     justify-content: center;
 }
@@ -524,24 +521,32 @@ form.senda :hover
     color:black;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
+    font-size: 0.6rem;
 }
 
 .box img {
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
+    width: 130px;
 }
 
 .footer-bar {
     display: flex;
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1.2rem;
+    align-items: center;
+    margin: 0.6rem 0;
 }
 
 .footer-bar li:first-child {
     margin-right: auto;
 }
 
+.footer-bar li:first-child img {
+    width: 155px;
+}
+
 .footer-bar a {
-    padding: 0.5rem;
-    margin-right: 0.5rem;
+    padding: 0.3rem;
+    margin-right: 0.3rem;
 }
 
 .footer-bar a:last-child {
@@ -550,6 +555,6 @@ form.senda :hover
 }
 
 .footer-bar img {
-    margin-bottom: 1rem;
-    height: 50%;
+    height: auto;
+    width: 25px;
 }
