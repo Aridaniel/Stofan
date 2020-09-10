@@ -80,377 +80,282 @@ small
 /* Over all*/
 
 .container {
-    text-align: center;
-    padding: 2rem;
-    width: 100%;
-    height: auto;
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+  height: auto;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-ul li{
-    list-style: none;
-}
 
+ul li {
+  list-style: none;
+}
 
 header {
-    display: flex;
-    justify-content: space-between;
-    margin: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.8rem;
 }
-
-
-
 
 /* Iphone menu*/
 
-
-header nav ul
-{
-    position: fixed;
-    width: 100%;
-    top:0;
-    right:0;
-    text-align: center;
-    background: #E5AE39;
-    height:60%;
-    
-    
-   
+header nav ul {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  text-align: center;
+  background: #e5ae39;
+  height: 60%;
 }
 
-header nav ul li a
-{
-    font-family: 'Monda', sans-serif;
-    color:#4D4C4C;
-    font-style: normal;
-    font-weight: bold;
-    text-decoration: none;
-    display: block;
-    width: 100%;
-    padding: 2rem ;
-    
+header nav ul li a {
+  font-family: "Monda", sans-serif;
+  color: #4d4c4c;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  padding: 2rem;
 }
 
-header ul li a:active
-{
-    color: #FAFCFE ;
+header ul li a:active {
+  color: #fafcfe;
 }
-
-
-
-
 
 .burgermenu {
-    width: 1.6rem;
-    margin: 1.5rem 0 0 0;
-    
+  width: 1.6rem;
+  margin: 1.5rem 0 0 0;
 }
 
-.exit-btn
-{
-    margin :1rem 1rem;
-    text-align: right;
-    padding: 1rem 1rem;
-  
+.exit-btn {
+  margin: 1rem 1rem;
+  text-align: right;
+  padding: 1rem 1rem;
 }
-.exit-btn img
-{
-    width: .7rem;
-    cursor: pointer;
-
+.exit-btn img {
+  width: 0.7rem;
+  cursor: pointer;
 }
 
 .hide-mobile {
-    display: none;
+  display: none;
 }
-
-
 
 /*FORSÍÐUMYND*/
 
-.forsidamynd{
-    width: 100%;
-    height: auto;
-    margin:  0;
-    padding: 0;
+.forsidamynd {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
 }
-
-
 
 /* Hugmynd að veruleika myndir með textum */
 
-.ferli
-{
-    text-align: center;
-    
+.ferli {
+  text-align: center;
 }
 
-.ferli div h4
-{
-    margin-top: 4rem;
-  
+.ferli div h4 {
+  margin-top: 4rem;
 }
 
 .ferli div img {
-    margin: 1.5rem;
+  margin: 1.5rem;
 }
- 
-
-
-
-
-
 
 /* Línur sem decoration*/
 
-.lina1{
-   margin: auto;  
-    width: 90%;
-    height: 50px;
-    border-bottom: 4px solid #E5AE39;
+.lina1 {
+  margin: auto;
+  width: 90%;
+  height: 50px;
+  border-bottom: 4px solid #e5ae39;
 }
 
-.lina2{
-    margin: auto;   
-    width: 50% ;
-    height: 30px;
-    border-bottom: 4px solid #CB7A5C;
-    
-    
+.lina2 {
+  margin: auto;
+  width: 50%;
+  height: 30px;
+  border-bottom: 4px solid #cb7a5c;
 }
-.lina3{
-    margin:auto; 
-    width: 20% ;
-    height: 30px;
-    border-bottom: 4px solid #51AC83;
-    
+.lina3 {
+  margin: auto;
+  width: 20%;
+  height: 30px;
+  border-bottom: 4px solid #51ac83;
 }
-
-
 
 /* Um stofuna lýsing á fyrirtæki*/
 
-.umstofan_header{
-    
-    padding: 0;
-    text-align: left;
+.umstofan_header {
+  padding: 0;
+  text-align: left;
 }
 
-
-.golden
-{
-    background-color: #E5AE39;
-    width: 100%;
-    margin-top: 2rem;
+.golden {
+  background-color: #e5ae39;
+  width: 100%;
+  margin-top: 2rem;
 }
 
 .umstofan_texti {
-    text-align: left;
-    margin-top: 0.8rem;         
-    padding: 1rem auto;
-    margin-left: auto; 
-    margin-right: auto;           
+  text-align: left;
+  margin-top: 0.8rem;
+  padding: 1rem auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .umokkur {
-    max-width: 500px;
-    margin: 0 auto;
+  max-width: 500px;
+  margin: 0 auto;
 }
 .golden {
-    width: 100%;
+  width: 100%;
 }
 
 .grid {
-    margin: auto;
-    display:grid;
-    grid-template-columns: minmax(150px,200px) minmax(150px,200px);
-    grid-column-gap: 10px;
-    grid-row-gap: 2rem;
-    width: 100%;
-    justify-content: center;
+  margin: auto;
+  display: grid;
+  grid-template-columns: minmax(150px, 200px) minmax(150px, 200px);
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  width: 100%;
+  justify-content: center;
 }
 
 .box {
-    
-    margin: 0 auto;
-    
+  margin: 0 auto;
 }
 
 .box img {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
+  display: block;
 }
 
-/* Verkefni sem stofan hefur unnið,  þarf að laga fyrir @media*/*/ 
-
-.verkefni {
-    
-    object-position: center;
-
+/* Verkefni sem stofan hefur unnið,  þarf að laga fyrir @media*/
+*/ .verkefni {
+  object-position: center;
 }
 
-.verkefni ul li h4{
-   
-    margin: 2rem 2rem ;
+.verkefni ul li h4 {
+  margin: 2rem 2rem;
 }
 
-.verkefni ul li p
-{
-    
-    height: 3.375rem;
-    margin: 2rem 2rem;
-
+.verkefni ul li p {
+  height: 3.375rem;
+  margin: 2rem 2rem;
 }
 
-
- 
-
-.verkefni_header{
-    text-align: center;
-    margin: 4rem 0 2rem ;
-    
-
+.verkefni_header {
+  text-align: center;
+  margin: 4rem 0 2rem;
 }
-
-
 
 .arcticpic {
-   width: 100%;
-   height: auto;
-  
+  width: 100%;
+  height: auto;
 }
-
 
 .arctic_header {
-    text-align: right;
-    
+  text-align: right;
 }
-
-
 
 .arctic_text {
-
-    text-align: right;
+  text-align: right;
 }
 
-
-
-.glopic{
-    width: 100%;
-    height: auto;
-    
+.glopic {
+  width: 100%;
+  height: auto;
 }
 
-.glo_header{
-    text-align: left;
-
+.glo_header {
+  text-align: left;
 }
 
-.glo_text{
-    text-align:left;
-    
+.glo_text {
+  text-align: left;
 }
 
-.arionpic{
-    width: 100%;
-    height: auto;
+.arionpic {
+  width: 100%;
+  height: auto;
 }
 
-.arion_header{
-    text-align: right;
-
+.arion_header {
+  text-align: right;
 }
 
-.arion_text{
-    text-align:right;
-    
+.arion_text {
+  text-align: right;
 }
 
 /* Contact Form*/
 
-.orange_container{
-    background-color:#CB7A5C; 
-    padding: 2rem 0 10rem 0;
-    margin: 4rem 0 0 0;
+.orange_container {
+  background-color: #cb7a5c;
+  padding: 2rem 0 10rem 0;
+  margin: 4rem 0 0 0;
 }
 
-.orange_container h3
-{
-
-    margin-left:1.2rem;
-    
+.orange_container h3 {
+  margin-left: 1.2rem;
 }
 
+.orange_container h5 {
+  text-align: left;
 
-
-.orange_container h5
-{
-
-    text-align: left;
-    
-    margin: -0.2rem 1.2rem 4rem;
-   
+  margin: -0.2rem 1.2rem 4rem;
 }
 
-form
-{
-    transition: all 4s ease-in-out;
+form {
+  transition: all 4s ease-in-out;
 }
 
-::placeholder{
-    color:#FAFCFE;
+::placeholder {
+  color: #fafcfe;
 }
 
-.form-control
-{
-    width: 80%;
-    background:transparent;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid #FAFCFE;
-    color:#FAFCFE;
-    margin: 1rem;
-    
-    
+.form-control {
+  width: 80%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #fafcfe;
+  color: #fafcfe;
+  margin: 1rem;
 }
 
-
-.senda
-{
-    font-size: 1rem;
-    line-height: 17px;
-    letter-spacing: 0.04em;
-    text-align: center;
-    height: 2rem;
-    width: 8rem;
-    font-family:'Monda', sans-serif;;
-    text-transform: uppercase;
-    font-style: normal;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    background-color:#E5AE39;
-    margin:2rem 0 0 1rem;
-    border: 0px;
-    border-radius: 6px;
-    
-    
-    
+.senda {
+  font-size: 1rem;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  height: 2rem;
+  width: 8rem;
+  font-family: "Monda", sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: #e5ae39;
+  margin: 2rem 0 0 1rem;
+  border: 0px;
+  border-radius: 6px;
 }
 
-form.senda :hover
-{
-    background-color: yellow;
-    cursor: pointer;
+form.senda :hover {
+  background-color: yellow;
+  cursor: pointer;
 }
-
-
-
 
 /* Breytingar á browser með @media tag*/
+
 
 
 @media only screen and (min-width: 800px)
@@ -522,42 +427,32 @@ form.senda :hover
 
 
 
-@media only screen and (min-width: 1050px)
-{
-.umokkur {
-        display: flex;
-        max-width: 950px;
-        }
 
 
+@media only screen and (min-width: 1050px) {
+  .umokkur {
+    display: flex;
+    max-width: 950px;
+  }
 
-    .umstofan_texti {
-        max-width: 775px;
-    }     
-    .grid {
-        
-        margin: 1rem auto 1rem 1rem;
-    }
+  .umstofan_texti {
+    padding-right: 8rem;
+  }
+  .grid {
+    width: auto;
+  }
 }
 
-@media only screen and (min-width: 1362px)
-{
+@media only screen and (min-width: 1362px) {
+  .ferli div h2 {
+    padding: 0 auto;
+  }
+
+  html{
+    font-size: 20px;
     
-
-    .ferli div h2
-    {
-
-        padding: 0 auto;
-        
-    }
-
 }
-
-
-
-
-/* ????? veit ekki  */
-
+}
 
 
 
@@ -566,31 +461,30 @@ form.senda :hover
 /*Footer*/
 
 .footer-bar {
-    display: flex;
-    padding: 0.6rem 1.2rem;
-    align-items: center;
-    margin: 0.6rem 0;
+  display: flex;
+  padding: 0.6rem 1.2rem;
+  align-items: center;
+  margin: 0.6rem 0;
 }
 
 .footer-bar li:first-child {
-    margin-right: auto;
+  margin-right: auto;
 }
 
 .footer-bar li:first-child img {
-    width: 155px;
+  width: 155px;
 }
 
 .footer-bar a {
-    padding: 0.3rem;
-    margin-right: 0.3rem;
+  padding: 0.3rem;
+  margin-right: 0.3rem;
 }
 
 .footer-bar a:last-child {
-    margin-right: 0;
-
+  margin-right: 0;
 }
 
 .footer-bar img {
-    height: auto;
-    width: 25px;
+  height: auto;
+  width: 25px;
 }
