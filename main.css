@@ -57,6 +57,7 @@ header {
 
 .ferli div h2{
     margin-top: 4rem;
+    color: #4D4C4C;
 }
 
 .ferli div img {
@@ -135,8 +136,8 @@ header {
     font-family: 'Monda', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size:18px;
-    line-height: 18px;
+    font-size: 1.3rem;
+    line-height: 3rem;
     color: #4D4C4C;
     letter-spacing: 0.04em;
     text-transform: uppercase;
@@ -251,12 +252,13 @@ header {
 
 
 
-.orange_container h4
+.orange_container h5
 {
 
     text-align: left;
     font-family: 'Monda', sans-serif;
     font-style: normal;
+    font-weight: normal;
     color: #FAFCFE;
     line-height: 23px;
     font-size: 14px;
