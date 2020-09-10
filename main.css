@@ -13,10 +13,12 @@ header {
     margin: 0.8rem;
 }
 
+
 /* Iphone menu*/
 
 
-header nav ul{
+header nav ul
+{
     position: fixed;
     width: 100%;
     top:0;
@@ -118,16 +120,14 @@ header ul li a:active
 /* Línur sem decoration*/
 
 .lina1{
-    margin-left:5% !important; 
-    margin-right:5% !important;   
+   margin: auto;  
     width: 90%;
     height: 50px;
     border-bottom: 4px solid #E5AE39;
 }
 
 .lina2{
-    margin-left:25% !important; 
-    margin-right:25% !important;    
+    margin: auto;   
     width: 50% ;
     height: 30px;
     border-bottom: 4px solid #CB7A5C;
@@ -135,8 +135,7 @@ header ul li a:active
     
 }
 .lina3{
-    margin-left:40% !important; 
-    margin-right:40% !important;   
+    margin:auto; 
     width: 20% ;
     height: 30px;
     border-bottom: 4px solid #51AC83;
