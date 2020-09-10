@@ -1,4 +1,9 @@
 /* Letur styles*/
+html{
+    font-size: 12px;
+    
+}
+
 h2
 {
     font-size: 	2.25rem;
@@ -450,6 +455,10 @@ form.senda :hover
 
 @media only screen and (min-width: 800px)
 {
+    html{
+        font-size: 16px;
+        
+    }
     .ferli
     {
         margin:0;
@@ -543,6 +552,8 @@ form.senda :hover
     }
 
 }
+
+
 
 
 /* ????? veit ekki  */
