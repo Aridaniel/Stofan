@@ -81,11 +81,15 @@ small
     height: auto;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 ul li{
     list-style: none;
 }
-
-
 
 
 header {
@@ -241,7 +245,7 @@ header ul li a:active
 }
 
 .umstofan_texti {
-    text-align: justify;
+    text-align: left;
     margin-top: 0.8rem;         
     padding: 1rem auto;
     margin-left: auto; 
@@ -366,7 +370,7 @@ header ul li a:active
 .orange_container{
     background-color:#CB7A5C; 
     padding: 2rem 0 10rem 0;
-    margin: 4rem 0 2rem 0;
+    margin: 4rem 0 0 0;
 }
 
 .orange_container h3
@@ -504,20 +508,27 @@ form.senda :hover
         color: #E5AE39;
     }
       
-}
+}  
 
 
 
 
 @media only screen and (min-width: 1050px)
 {
-    
-.umokkur
-{
-    display: flex;
+.umokkur {
+        display: flex;
+        max-width: 950px;
+        }
 
-} 
 
+
+    .umstofan_texti {
+        max-width: 775px;
+    }     
+    .grid {
+        
+        margin: 1rem auto 1rem 1rem;
+    }
 }
 
 @media only screen and (min-width: 1362px)
@@ -545,16 +556,22 @@ form.senda :hover
 
 .footer-bar {
     display: flex;
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1.2rem;
+    align-items: center;
+    margin: 0.6rem 0;
 }
 
 .footer-bar li:first-child {
     margin-right: auto;
 }
 
+.footer-bar li:first-child img {
+    width: 155px;
+}
+
 .footer-bar a {
-    padding: 0.5rem;
-    margin-right: 0.5rem;
+    padding: 0.3rem;
+    margin-right: 0.3rem;
 }
 
 .footer-bar a:last-child {
@@ -563,6 +580,6 @@ form.senda :hover
 }
 
 .footer-bar img {
-    margin-bottom: 1rem;
-    height: 50%;
+    height: auto;
+    width: 25px;
 }
