@@ -282,12 +282,12 @@ header ul li a:active {
   object-position: center;
 }
 
-.verkefni ul li div h4 {
+.verkefni div h4 {
   margin: 1rem 1.5rem;
 
 }
 
-.verkefni ul li div p {
+.verkefni div p {
   
   margin: 1rem 1.5rem 3rem 1.5rem;
 }
@@ -314,7 +314,7 @@ header ul li a:active {
     
     width: 25%;
     height: 51x;
-      /* ÞARF AÐ TJEKKA A*/
+    margin: auto;   /* ÞARF AÐ TJEKKA A*/
     border-bottom: 3px solid #51ac83;
 }
 
@@ -340,7 +340,7 @@ header ul li a:active {
     
     width: 25%;
     height: 1px;
-    margin-left: 2rem;;   /* ÞARF AÐ TJEKKA A*/
+    margin-left: 1.5rem;;   
     border-bottom: 3px solid #51ac83;
 }
 
@@ -365,6 +365,7 @@ header ul li a:active {
     
     width: 25%;
     height: 51x;
+    margin: auto;  /*ATH??????????*/
    
     border-bottom: 3px solid #51ac83;
   }
@@ -451,6 +452,9 @@ form.senda :hover {
         font-size: 16px;
         
     }
+
+
+
     .ferli
     {
         margin:0;
@@ -469,6 +473,10 @@ form.senda :hover {
     }
 
     
+    
+
+
+
 
 
     .show-desktop
@@ -518,23 +526,94 @@ form.senda :hover {
 
 @media only screen and (min-width: 1050px)
 {
-    .verkefni
+    .verkefni_header
+    {
+        margin: 6rem 0;
+    }
+
+     .arcticbox
     {
         display: flex;
+        margin: 4rem 0;
+        
+        
+    }
+
+    .arcticpic
+    {
+        flex: 1;
+    }
+    
+
+    .arctic_textibox
+    {
+        padding: 3.5rem 3.5rem 0 0;
+        flex: 1;
     }
 
 
 
 
-  .umokkur {
-    display: flex;
-    max-width: 950px;
-  }
 
-  .umstofan_texti {
+    .globox
+    {
+        display: flex;
+        margin: 4rem 0;
+    }
+
+    .glo_textibox
+    {
+        order: 1;
+        padding: 3.5rem 0 0 3.5rem;
+        flex: 1;
+    }
+
+    .glopic
+    {
+        order: 2;
+        flex: 1;
+    }
+
+
+
+
+    .arionbox
+    {
+        display: flex;
+    }
+    
+    .arion_textibox
+
+    {
+        flex: 1;
+        padding: 3.5rem 3.5rem 0 0;
+    }
+
+    .arionpic
+    {
+        flex: 1;
+    }
+
+    
+    
+
+    
+
+
+
+
+  .umokkur 
+   {
+     display: flex;
+     max-width: 950px;
+   }
+
+  .umstofan_texti 
+  {
     padding-right: 8rem;
   }
-  .grid {
+  .grid 
+  {
     width: auto;
   }
 
@@ -545,14 +624,15 @@ form.senda :hover {
 
 
 
-@media only screen and (min-width: 1362px) {
+@media only screen and (min-width: 1362px) 
+{
 
   .ferli div h2 {
     padding: 0 auto;
   }
 
   html{
-    font-size: 20px;
+    font-size: 18px;
     
 }
 }
