@@ -11,7 +11,7 @@ h2
     font-family: 'monda', sans-serif;
     font-weight: bold;
     color: #4D4C4C;
-    letter-spacing: 4%;
+    letter-spacing: 2px;
     line-height:	3.6875rem ;
     text-transform: uppercase;
 }
@@ -22,7 +22,7 @@ h3
     font-family: 'monda', sans-serif;
     font-weight: bold;
     color:#FAFCFE;
-    letter-spacing: 4%;
+    letter-spacing: 2px;
     line-height:2.4375rem ;
     text-transform: uppercase;
 
@@ -49,7 +49,7 @@ h5
     font-family: 'monda', sans-serif; 
     font-weight: normal;
     color:#FAFCFE;
-    letter-spacing: 2%;
+    letter-spacing: 1px;
     line-height:2.4375rem ;
     text-transform: uppercase;
 
@@ -64,7 +64,7 @@ p
     font-family: 'Open Sans', sans-serif;; 
     font-weight: normal;
     columns: #000000;;
-    letter-spacing: 2%;  
+    letter-spacing: 1px;  
     line-height:1.5625rem ;
 }
 
@@ -74,7 +74,7 @@ small
     font-family: 'Open Sans', sans-serif;; 
     font-weight: normal;
     columns: #000000;;
-    letter-spacing: 2%;  
+    letter-spacing: 1px;  
     line-height:1rem ;
 }
 
@@ -105,7 +105,11 @@ ul li {
 header {
   display: flex;
   justify-content: space-between;
-  margin: 0.8rem;
+  margin: 0;
+  padding: 0 2rem;
+  background-color: white;
+  position: fixed;
+  width: 100%;
 }
 
 
@@ -199,6 +203,7 @@ header ul li a:active {
 
 
 
+
 /* Línur sem decoration*/
 
 .lina1 {
@@ -236,10 +241,8 @@ header ul li a:active {
 
 .umstofan_texti {
   text-align: left;
-  margin-top: 0.8rem;
   padding: 1rem auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 1rem auto 3rem auto;
 }
 
 .umokkur {
@@ -248,6 +251,7 @@ header ul li a:active {
 }
 .golden {
   width: 100%;
+  padding-bottom: 5rem;
 }
 
 .grid {
@@ -520,6 +524,36 @@ form.senda :hover {
     {
         color: #E5AE39;
     }
+
+    #contact-form {
+      text-align: center;
+
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+    .orange_container h5 {
+      text-align: center;
+      margin: auto;
+    }
+
+    .orange_container div {
+      max-width: 70%;
+      margin: 3rem 20%;
+      
+    }
+
+    .orange_container {
+     margin: 4rem auto 0 auto;
+
+    }
+
+
+
+
+    
       
 }  
 
@@ -619,6 +653,10 @@ form.senda :hover {
   .grid 
   {
     width: auto;
+  }
+
+  .ferli div img {
+    width: 20%;
   }
 
 
